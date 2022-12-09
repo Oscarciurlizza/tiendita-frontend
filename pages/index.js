@@ -19,7 +19,7 @@ export default function Index({ the_accounts }) {
         <div>
           <button
             className="border border-black py-3 px-6"
-            onClick={() => setIsOpenAccountModal(true)}
+            onClick={() => setIsOpen(true)}
           >
             Add account
           </button>

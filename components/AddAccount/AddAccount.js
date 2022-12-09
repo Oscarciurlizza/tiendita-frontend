@@ -23,7 +23,7 @@ export default function AddAccount({ isOpen, setIsOpen }) {
       <Formik
         initialValues={initialValues()}
         onSubmit={async (values) => {
-          setIsOpenAccountModal(false);
+          setIsOpen(false);
           const res = await addAccount(values);
         }}
       >

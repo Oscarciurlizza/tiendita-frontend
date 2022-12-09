@@ -1,6 +1,6 @@
-export default function Spent({ spent, product }) {
+export default function Spent({ spent }) {
   const { name, quantity, article } = spent.attributes;
-  console.log(product);
+  console.log(article);
   return (
     <section className="sm:grid grid-cols-2 grid-flow-col">
       <div className="bg-red-500">
