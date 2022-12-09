@@ -24,7 +24,7 @@ export default function Index({ the_accounts }) {
             Add account
           </button>
         </div>
-        <div className="mt-10">
+        <div className="sm:grid grid-cols-4 gap-3 mt-10">
           {the_accounts?.map((account) => (
             <AccountCard key={account.id} account={account} />
           ))}

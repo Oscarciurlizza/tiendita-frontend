@@ -1,6 +1,7 @@
 export default function Spent({ spent }) {
   const { name, quantity, article } = spent.attributes;
-  console.log(article);
+
+  console.log(quantity);
   return (
     <section className="sm:grid grid-cols-2 grid-flow-col">
       <div className="bg-red-500">
