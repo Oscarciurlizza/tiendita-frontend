@@ -18,7 +18,6 @@ export default function AddSpent({ isOpen, setIsOpen, account }) {
       }
     );
   }
-
   return (
     <Modal title="Add spent" isOpen={isOpen} setIsOpen={setIsOpen}>
       <Formik
